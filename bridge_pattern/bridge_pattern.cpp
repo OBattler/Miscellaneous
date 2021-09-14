@@ -189,7 +189,8 @@ CompressAPI_LZMIT : public CompressAPI {
 		return r;
 	}
 
-	bool CompressBytes(unsigned char *source, unsigned short int *pos, int source_back) const {
+	bool
+	CompressBytes(unsigned char *source, unsigned short int *pos, int source_back) const {
 		if (source_back > 4096)
 			source_back = 4096;
 
