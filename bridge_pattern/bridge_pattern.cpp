@@ -450,7 +450,8 @@ void strtoupper(char *src) {
 }
 
 
-int main(int argc, char* argv[]) {
+int
+main(int argc, char* argv[]) {
     int ret;
     char *p1, *p2;
 
